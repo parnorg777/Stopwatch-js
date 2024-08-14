@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+    background-color: #02CAE5;
+    cursor: default;
+}
+#div_0 {
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    top: 30vh;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+    padding-top: 38px;
+}
+#div_1 {
+    width: 500px;
+    height: 230px;
+    position: relative;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration:underline;
+    text-underline-offset: 0.3em;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'PT Sans';
+}
+span {
+    font-family: "Software Tester 7";
+    font-size: 6em;
+    font-weight: bold;
+}
+span:first-of-type {
+    margin-left: 25px;
+}
+button {
+    font-size: 2.1em;
+    padding: 19px 10px;
+    padding-bottom: 20px;
+    padding-top: 17px;
+    border: 4px solid black;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    line-height: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:first-of-type {
+    margin-left: 135px;
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+}
+button:hover {
+    background-color: black;
+    border-color: black;
+    color: aqua;
+}
+button:active {
+    background-color: rgb(35, 33, 33);
+    border-color: rgb(35, 33, 33);
+}
+#p_Bottom {
+    position: relative;
+    top: 58vh;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-weight: bold;
+}
